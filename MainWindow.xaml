@@ -1,0 +1,14 @@
+﻿<Window x:Class="StrategyPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StrategyPattern" Height="200" Width="300">
+    <StackPanel>
+        <ComboBox x:Name="WeaponComboBaox">
+            <ComboBoxItem Content="Sword" />
+            <ComboBoxItem Content="Bow" />
+            <ComboBoxItem Content="Axe" />
+        </ComboBox>
+        <Button Content="Attack" Click="AttackButton_Click" />
+        <TextBlock x:Name="OutputTextBlock" />
+    </StackPanel>
+</Window>
